@@ -1,0 +1,12 @@
+<CORSConfiguration>
+ <CORSRule>
+   <AllowedOrigin>http://localhost:3000</AllowedOrigin>
+   <AllowedOrigin>https://gorails.com</AllowedOrigin>
+
+   <AllowedMethod>GET</AllowedMethod>
+   <AllowedMethod>PUT</AllowedMethod>
+   <AllowedMethod>POST</AllowedMethod>
+
+   <AllowedHeader>*</AllowedHeader>
+ </CORSRule>
+</CORSConfiguration>
